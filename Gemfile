@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails',           '5.0.1'
+gem 'bootstrap-sass', '3.3.6'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
@@ -8,6 +9,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+
 
 group :development, :test do
   gem 'sqlite3'
